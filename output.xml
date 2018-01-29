@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180129 12:31:25.465" generator="Robot 3.0.2 (Python 2.7.14 on darwin)">
+<suite source="/Users/dimplejagadishdoshi/Documents/sublimecode/pycode/Tests/project.robot" id="s1" name="Project">
+<test id="s1-t1" name="User can open home page">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.practo.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20180129 12:31:25.569" level="INFO">Opening browser 'chrome' to base url 'http://www.practo.com'.</msg>
+<status status="PASS" endtime="20180129 12:31:28.817" starttime="20180129 12:31:25.569"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>practo</arg>
+</arguments>
+<status status="PASS" endtime="20180129 12:31:28.838" starttime="20180129 12:31:28.818"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20180129 12:31:28.909" starttime="20180129 12:31:28.839"></status>
+</kw>
+<doc>As a user I can open the home page and see the tagline.</doc>
+<status status="PASS" endtime="20180129 12:31:28.909" critical="yes" starttime="20180129 12:31:25.568"></status>
+</test>
+<doc>This is a basic Test</doc>
+<status status="PASS" endtime="20180129 12:31:28.910" starttime="20180129 12:31:25.475"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Project" pass="1">Project</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
