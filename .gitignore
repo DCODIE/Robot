@@ -1,0 +1,7 @@
+*.html
+*.xml
+*.pyc
+*.o
+*.so
+*.odp#
+
